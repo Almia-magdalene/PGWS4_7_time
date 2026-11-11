@@ -31,6 +31,9 @@
         },
         {
             "m_Id": "a02c0a309297457aa70bbc6dfc10e6f2"
+        },
+        {
+            "m_Id": "8655e02f955a444ebbf0435ce1d0e989"
         }
     ],
     "m_GroupDatas": [],
@@ -48,6 +51,20 @@
                     "m_Id": "2afc60badb4e4d80b2b0d68fbceca987"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "8655e02f955a444ebbf0435ce1d0e989"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "785c3fcd979b4a5fa7b6e2437f88b5dc"
+                },
+                "m_SlotId": 3
             }
         }
     ],
@@ -325,6 +342,19 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SamplerStateMaterialSlot",
+    "m_ObjectId": "7b6627c7ad43441289ce8376cc99ab87",
+    "m_Id": 0,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "7d462fb7c04a47439974468f1f39af01",
     "m_Group": {
@@ -380,6 +410,42 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SamplerStateNode",
+    "m_ObjectId": "8655e02f955a444ebbf0435ce1d0e989",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Sampler State",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -437.88262939453127,
+            "y": 239.45066833496095,
+            "width": 147.3333282470703,
+            "height": 140.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "7b6627c7ad43441289ce8376cc99ab87"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_filter": 0,
+    "m_wrap": 0,
+    "m_aniso": 0
 }
 
 {
